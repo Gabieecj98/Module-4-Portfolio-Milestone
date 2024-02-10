@@ -9,20 +9,19 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ...         print(f"{self.item_name} {self.item_quantity} @ ${self.item_price:.2f} = ${self.item_quantity * self.item_price:.2f}")
 ... 
 ...         
->>> class SnickersItem(ItemToPurchase):
-...     def __init__(self, item_name="Snickers", item_price=3.00, item_quantity=1):
+>>> class PepsiItem(ItemToPurchase):
+...     def __init__(self, item_name="Pepsi", item_price=1.89, item_quantity=1):
 ...         super().__init__(item_name, item_price, item_quantity)
 ... 
 ...         
 >>> if __name__ == "__main__":
-...     # Create an instance for Snickers
-...     snickers = SnickersItem()
-... 
+...     # Create an instance for Pepsi
+...     Pepsi = PepsiItem()
 ...     # Print item cost
 ...     print("\nTOTAL COST")
-...     snickers.print_item_cost()
+...     Pepsi.print_item_cost()
 ... 
 ...     
 
 TOTAL COST
-Snickers 1 @ $3.00 = $3.00
+Pepsi 1 @ $1.89 = $1.89
