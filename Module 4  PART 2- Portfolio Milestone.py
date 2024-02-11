@@ -521,7 +521,7 @@ class ItemToPurchase:
     def print_item_cost(self):
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
-            
+  if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers flavor:\n")
