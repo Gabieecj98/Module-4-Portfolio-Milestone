@@ -138,7 +138,7 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ = "__main"__:
+
     
 SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
 class ItemToPurchase:
@@ -151,7 +151,7 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
+
     
 SyntaxError: invalid syntax
 
@@ -179,7 +179,7 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
+
     print("Item 1")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -207,7 +207,7 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
+
     print("Item 1")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -226,7 +226,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -270,7 +269,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -298,7 +296,6 @@ class ItemToPurchase:
         def print_item_cost(self):
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -352,7 +349,6 @@ class ItemToPurchase:
         def print_item_cost(self):
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
            
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -379,7 +375,6 @@ class ItemToPurchase:
         def print_item_cost(self):
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -407,7 +402,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
 
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers name:\n")
@@ -435,7 +429,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers flavor:\n")
@@ -481,7 +474,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers flavor:\n")
@@ -530,7 +522,6 @@ class ItemToPurchase:
             print(f"{self.item_name} {self.item_quantity} @ ${self.item_price} = ${self.item_quantity * self.item_price}")
 
             
-if __name__ == "__main__":
     print("Item")
     snickers = ItemToPurchase()
     snickers.item_name = input("Enter the snickers flavor:\n")
